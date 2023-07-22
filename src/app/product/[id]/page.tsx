@@ -1,7 +1,11 @@
+import React from 'react';
+
 const SingleProductPage = () => {
     return (
         <div>
-            SingleProductPage.
+            Single Product Page.
         </div>
-    )
-}
+    );
+};
+
+export default SingleProductPage;
