@@ -23,7 +23,7 @@ const Price = ({ price, id, options }: Props) => {
 		<div className="flex flex-col gap-4">
 			<h1 className="text-2xl font-bold">${total.toFixed(2)}</h1>
 			{/* OPTIONS CONTAINER */}
-			<div className="flex justify-between gap-4">
+			<div className="flex gap-4">
 				{options?.map((option, index) => (
 					<button
 						key={option.title}
